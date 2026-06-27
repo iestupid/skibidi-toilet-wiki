@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki de Skibidi Toilet</title>
+    <style>
+        /* Desplazamiento suave entre secciones */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Estilo oscuro inspirado en la serie */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #11141a;
+            color: #e2e8f0;
+        }
+
+        /* Encabezado fijo */
+        header {
+            background: linear-gradient(180deg, #1e293b 0%, rgba(30,41,59,0.8) 100%);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 10px 0 5px 0;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #38bdf8; /* Azul Cameraman */
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+        }
+
+        /* Menú de navegación */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #94a3b8;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            color: #f43f5e; /* Rojo Skibidi / Conflicto */
+            text-transform: uppercase;
+        }
+
+        /* Secciones separadas que ocupan TODA la pantalla */
+        section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        section p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            line-height: 1.6;
+            color: #cbd5e1;
+        }
+
+        /* Fondos personalizados para cada sección */
+        #inicio { 
+            background: radial-gradient(circle, #1e293b 0%, #0f172a 100%);
+            border-bottom: 4px solid #38bdf8;
+        }
+        #historia { 
+            background: radial-gradient(circle, #2d1b4e 0%, #110724 100%);
+            border-bottom: 4px solid #a855f7; /* Morado Titán */
+        }
+        #teorias { 
+            background: radial-gradient(circle, #3c1515 0%, #1a0505 100%);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wiki Skibidi Toilet 🚽</h1>
+        <nav>
+            <ul>
+                <!-- Los href apuntan al ID con # -->
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#teorias">Teorías</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección 1: Inicio (Modificado con ID) -->
+    <section id="inicio">
+        <h2>Inicio </h2>
+        <p></p>
+    </section>
+
+    <!-- Sección 2: Historia (Modificado con ID) -->
+    <section id="historia">
+        <h2>Historia </h2>
+        <p></p>
+    </section>
+
+    <!-- Sección 3: Teorías (Modificado con ID) -->
+    <section id="teorias">
+        <h2>Teorías </h2>
+        <p></p>
+    </section>
+
+</body>
+</html>
